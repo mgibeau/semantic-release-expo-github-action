@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-sh -c "npm semantic-release"
+sh -c "npm run semantic-release"
