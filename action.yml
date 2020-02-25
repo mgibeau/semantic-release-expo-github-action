@@ -1,0 +1,12 @@
+name: "Expo Semantic Release"
+description: "An Expo implementation for semantic release, so you don't have to bother."
+inputs:
+  working-directory: # id of input
+    description: "Path to run docker entry"
+    required: false
+    default: '.'
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.working-directory }}

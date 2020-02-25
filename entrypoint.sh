@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-sh -c "npm run semantic-release"
+sh -c "cd ${1} && npm run semantic-release"
